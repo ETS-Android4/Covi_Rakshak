@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#F1FDFF"
+        android:layout_height="wrap_content" >
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/logo" />
+
+        <LinearLayout
+            android:id="@+id/headtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Covi "
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="#7C063B"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:fontFamily="@font/alegreya_sans_sc_medium" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Rakshak"
+                android:layout_weight="1"
+                android:textColor="#0D1855"
+                android:textSize="20sp"
+                android:fontFamily="@font/alegreya_sans_sc_medium" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Self  Care"
+                android:textColor="#60310D"
+                android:layout_weight="5"
+                android:textSize="25sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/alegreya_sans_sc_medium" />
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/self_care"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/headtext"
+            android:layout_marginTop="0dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/heading_self"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:text="More commonly known as alternate nostril breathing, it is a prevalent Pranayama and has been spoken about in the Hatha Yoga literature. This exercise helps clear out the nasal passage and improves respiratory muscle strength"
+            android:textSize="21sp"
+            android:gravity="center"
+            android:textColor="#231F1F"
+            android:fontFamily="@font/alegreya_sans_sc_medium"
+            android:layout_below="@+id/self_care" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/heading_self" />
+
+
+        <ImageView
+            android:id="@+id/image11"
+            android:scaleType="fitCenter"
+            android:layout_width="300dp"
+
+            android:layout_height="330dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/heading_self" />
+
+        <TextView
+            android:id="@+id/self_descript1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image11"
+            android:text="With your right thumb, close your right nostril and inhale through the left nostril. Release your right nostril and with your middle and ring finger, close your left nostril exhaling through the right nostril\nInhale through the right nostril, then release the fingers, closing the right nostril and exhaling through the left nostril"
+            android:textColor="#231F1F"
+            android:fontFamily="@font/alegreya_sans_sc_medium"
+            android:gravity="center_horizontal"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/heading_self2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="When you know how to breathe correctly with diaphragmatic momentum, you reap multiple benefits. Most importantly, deeper diaphragm breathing can slow down your heart rate. This should help you feel calmer and less stressed."
+            android:textSize="23sp"
+            android:gravity="center"
+            android:textColor="#231F1F"
+            android:fontFamily="@font/alegreya_sans_sc_medium"
+            android:layout_below="@+id/self_descript1" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/heading_self2"
+            android:scaleType="centerCrop" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

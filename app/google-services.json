@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1069281514813",
+    "project_id": "covi-rakshak",
+    "storage_bucket": "covi-rakshak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069281514813:android:b52d18944568cf70536154",
+        "android_client_info": {
+          "package_name": "com.covirakshak.covi_rakshak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069281514813-lpv3e93p4qud83olkei6nac282ej7nge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz9er3ShYGOXFZ2TUUAerhbNujU1ovUJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069281514813-lpv3e93p4qud83olkei6nac282ej7nge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

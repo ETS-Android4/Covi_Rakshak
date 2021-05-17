@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.covirakshak.covi_rakshak">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Covi Rakshak"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Covi_Rakshak">
+        <activity android:name="com.covirakshak.covi_rakshak.about"></activity>
+        <activity android:name="com.covirakshak.covi_rakshak.splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.covirakshak.covi_rakshak.self" />
+        <activity android:name="com.covirakshak.covi_rakshak.oxygen" />
+        <activity android:name="com.covirakshak.covi_rakshak.plasma" />
+        <activity android:name="com.covirakshak.covi_rakshak.districts_list" />
+        <activity android:name="com.covirakshak.covi_rakshak.ui_dev_mode" />
+        <activity android:name="com.covirakshak.covi_rakshak.states_list" />
+        <activity android:name="com.covirakshak.covi_rakshak.hospitals" />
+        <activity
+            android:name="com.covirakshak.covi_rakshak.developers_mode"
+            android:label="Developers Mode" />
+        <activity
+            android:name="com.covirakshak.covi_rakshak.users_mode"
+            android:label="Users Mode" />
+        <activity android:name="com.covirakshak.covi_rakshak.MainActivity"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

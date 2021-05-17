@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="fontForNotificationLandingPage">
+        <item name="android:fontFamily">@font/arima_madurai_bold</item>
+        <item name="android:textColor">#333333</item>
+
+
+    </style>
+
+
+
+    <style name="newfont">
+        <item name="android:fontFamily">@font/alegreya_sans_sc_medium</item>
+        <item name="android:textColor">#333333</item>
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+</resources>
